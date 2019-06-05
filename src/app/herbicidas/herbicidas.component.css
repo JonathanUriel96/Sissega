@@ -4,3 +4,13 @@ footer {
   color: white;
   padding: 15px;
 }
+.sonbras{
+  -webkit-box-shadow: 0px 2px 15px -1px rgba(0,0,0,0.97); 
+box-shadow: 0px 2px 15px -1px rgba(0,0,0,0.97);
+}
+.margen{
+  margin: 4%;
+}
+h2{
+  text-align: center;
+}

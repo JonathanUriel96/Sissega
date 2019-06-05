@@ -1,16 +1,66 @@
 body {
-    padding-top: 20px;
-    padding-bottom: 20px;
+   text-align: center;
+   position: relative;
+   width: 100%;
+   padding-top: 118px;
+   padding-bottom: 100px;
+   background: url("../../../assets/img/bg-pattern.png"), #7b4397;
+   background: url("../../../assets/img/bg-pattern.png"), -webkit-gradient(linear, right top, left top, from(#7b4397), to(#dc2430));
+   background: url("../../../assets/img/bg-pattern.png"), linear-gradient(to left, #7b4397, #dc2430);
   }
   .form-control{
       width: 65%;
       border-radius: 10.25rem;
-      border: 4px solid #ced4da;
+      display: initial;
+      text-align: center !important;
   }
+  .row{
+    height: 100%;
+    align-content: center;
+    }
   .ng-untouched{
     line-height: 2.5;
     text-align: center;
   }
-  .button{
-    border-radius: 10.25rem;
+  .col-md-6{
+    background-image:url('../../../assets/img/full-bloom.png');
+    border-radius: 2.25rem;
+    height: 100%;
+    align-content: center;
+}
+  .btn{
+    border-radius: 25px, 0px, 25px, 0px !important;
+    border-radius: 3.25rem;
+    width: 37%;
+    background-color: #412bc0 !important;
+    text-align: center !important;
+    justify-content: center !important;
   }
+  label{
+    font-weight: bold;
+  }
+  font{
+    color: #FFFFFF;
+    font-weight: bold;
+    font-size: 35px;
+  }
+  .a{
+    text-align: center !important;
+  }
+  .posicionImg {
+    position: absolute;
+    top: 33%;
+    left: 34%
+  }
+  .colordiv{
+    background-color: beige;
+    border-radius: 21px 30px 30px 21px;
+ }
+    body#tinymce {
+    background: #FFFFFF
+    }
+    .sss{
+      -webkit-box-shadow: -10px 0px 13px -7px #000000, 10px 0px 13px -7px #000000, -50px -50px 0px -30px rgba(0,0,0,0); 
+  box-shadow: -10px 0px 13px -7px #000000, 10px 0px 13px -7px #000000, -50px -50px 0px -30px rgba(0,0,0,0);
+  border-radius: 30px;
+   }

@@ -1,6 +1,78 @@
-body{
-    text-align: center;
+body {
+  text-align: center;
+  position: relative;
+  width: 100%;
+  padding-top: 118px;
+  padding-bottom: 100px;
+  background: url("../../../assets/img/bg-pattern.png"), #7b4397;
+  background: url("../../../assets/img/bg-pattern.png"), -webkit-gradient(linear, right top, left top, from(#7b4397), to(#dc2430));
+  background: url("../../../assets/img/bg-pattern.png"), linear-gradient(to left, #7b4397, #dc2430);
 }
-.h4{
-    text-align: center;
+
+.col-md-6 {
+  background-image: url('../../../assets/img/full-bloom.png');
+  border-radius: 2.25rem;
+  height: 100%;
+  align-content: center;
 }
+font {
+  text-align: center !important;
+  color: #FFFFFF;
+  font-weight: bold;
+  font-size: 35px;
+}
+
+label {
+  text-align: center !important;
+  font-weight: bold;
+}
+
+.form-control {
+  width: 65%;
+  border-radius: 10.25rem;
+  border: 4px solid #ced4da;
+  text-align: center !important;
+  display: initial;
+}
+
+.button {
+  border-radius: 10.25rem;
+}
+
+.btn {
+    border-radius: 25px 0px 25px 0px !important;
+  border-radius: 3.25rem;
+  width: 37%;
+  background-color: #412bc0 !important;
+  text-align: center !important;
+  justify-content: center !important;
+}
+
+.a {
+  text-align: center !important;
+}
+
+#demo {
+  -webkit-box-shadow: -10px 0px 13px -7px #000000, 10px 0px 13px -7px #000000, 3px 3px 35px 5px rgba(0, 0, 0, 0.16);
+  box-shadow: -10px 0px 13px -7px #000000, 10px 0px 13px -7px #000000, 3px 3px 35px 5px rgba(0, 0, 0, 0.16);
+}
+
+
+body#tinymce {
+  background: #FFFFFF
+}
+
+.posicionImg {
+  position: absolute;
+  top: 33%;
+  left: 34%
+}
+ .colordiv{
+    background-color: beige;
+    border-radius: 21px 30px 30px 21px;
+ }
+ .sss{
+    -webkit-box-shadow: -10px 0px 13px -7px #000000, 10px 0px 13px -7px #000000, -50px -50px 0px -30px rgba(0,0,0,0); 
+box-shadow: -10px 0px 13px -7px #000000, 10px 0px 13px -7px #000000, -50px -50px 0px -30px rgba(0,0,0,0);
+border-radius: 30px;
+ }

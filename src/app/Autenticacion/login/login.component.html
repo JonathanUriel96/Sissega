@@ -1,26 +1,39 @@
-<div class="row">
-  <div class="col-md-6 offset-md-3">
-    <form [formGroup]="loginForm" (ngSubmit)="onSubmit()">
-      <h4>Introduzca los siguientes datos:</h4>
-     
-      <input type="email" id="inputEmail" class="form-control"
-      formControlName="email" placeholder="Correo Electronico" required autofocus>
+<body>
+    <font style text-aling="center" face="Comic Sans MS,Arial,Verdana">¡Hola! Bienvenido</font>
+    <br> 
 
-      <label>Contraseña</label>
-      <input type="password" id="inputPassword" class="form-control" 
-      formControlName="password" required>
-      <hr>
-      <button type="submit" class="btn btn-primary" [disabled]="!loginForm.valid" *ngIf="!autenticando">
-        Inicie Sesion
-      </button>
-      <button type="submit" class="btn btn-primary" *ngIf="autenticando">
-        Autenticando usuario...
-      </button>
-    </form>
-    <p>Si no dispones de una cuenta pulse<a routerLink="/Registrarse">aquí</a></p>
-    <p class="alert alert-danger" *ngIf="mensaje">
-      El usuario o contraseña no es correcto
-    </p>
-  </div>
-  <button class=""></button>
-</div>
+    <div class="container sss card col-6">
+      <div class="row">
+        <div class="col">
+            <div class="">
+                <form [formGroup]="loginForm" (ngSubmit)="onSubmit()">
+                 <br><label>USUARIO O CORREO ELECTRONICO</label>
+                  <input type="email" id="inputEmail" class="form-control"
+                  formControlName="email" placeholder="Correo Electronico" required autofocus>
+                  <br>
+                  <br><label>CONTRASEÑA</label>
+                  <br>
+                  <input type="password" id="inputPassword" class="form-control" 
+                  formControlName="password" placeholder="Contraseña" required autofocus>
+                  <br>
+                  <hr>
+                  <button type="submit" class="btn btn-primary" [disabled]="!loginForm.valid" *ngIf="!autenticando" id="demoObject">
+                    INGRESAR
+                  </button>
+                  <button type="submit" class="btn btn-primary" *ngIf="autenticando">
+                    Autenticando usuario...
+                  </button>
+                </form>
+                <br>
+                <p><a routerLink="/Registrarse">Crear Cuenta</a></p>
+                <p class="alert alert-danger" *ngIf="mensaje">
+                  El usuario o contraseña no es correcto
+                </p>
+              </div>
+        </div>
+        <div class="col colordiv">
+            <img class="posicionImg" src="assets/img/vacas.png" width="100" height="100">
+        </div>
+      </div>
+    </div>
+</body>
